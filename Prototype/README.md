@@ -1,0 +1,2 @@
+O padrão Prototype é responsável pela função de clonagem para um objeto que está sendo clonado. Ele estabelece uma interface comum que possibilita a clonagem de um objeto sem acoplar o código diretamente à classe do objeto em questão.
+O código demonstra o funcionamento do padrão para clonar os objetos "Circle" e "Square". O método clone() é implementado em cada classe para criar uma nova instância do mesmo tipo. Isso permite que os objetos sejam clonados sem saber os detalhes de implementação de cada classe.
