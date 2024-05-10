@@ -1,0 +1,3 @@
+O padrão Composite é um padrão de design estrutural que permite compor objetos em estruturas de árvore para representar hierarquias parte-todo. Ele permite que os clientes tratem de maneira uniforme objetos individuais e composições de objetos.
+
+Neste exemplo, temos a classe Component serve como a interface base para todos os componentes da estrutura, a classe Leaf que representa as folha da árvore e a classe Composite que representa os nós internos da árvore, que podem conter outros componentes (sejam folhas ou outros nós compostos). O método display() é implementado de forma polimórfica para exibir os elementos, tratando folhas e nós compostos de maneira uniforme.
